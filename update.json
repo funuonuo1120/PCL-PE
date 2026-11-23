@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "latest": {
+    "version": "1.1.0",
+    "channel": "preview",
+    "date": "2026-11-23",
+    "notes": "## PCL PE 1.1.0 · 换底版本\n\n- 以 **PCL Living Fork 1.5.1**（C# / .NET 10）为源码底座重制，PE 功能全部源码级接入\n- **陶瓦联机** 回归：顶栏联机页 + 内嵌内核，附推荐联机工具（uu云联机 / MCTier / 樱花内网 / Lolia FRP）\n- **主题色相** 全解锁：彩虹条拖到哪就是哪个颜色，导航栏与全局跟随\n- **版本设置** 新增「按键绑定设置」等 LF 原生功能：回收站、还原点、克隆版本、自定义主页\n- 更新页接入 **PCL PE 自更新**：启动时静默检查新版本，确认后下载、SHA256 校验并自动重启",
+    "file": {
+      "name": "Plain Craft Launcher (PCL) PE 1.1.0 预览版.exe",
+      "size": 26665117,
+      "sha256": "b4329a2d1bd6f1925a1e76b2d1e4f6a2cbba0888ca374ba0b1a5dfc3266d062a",
+      "urls": [
+        "https://github.com/funuonuo1120/PCL-PE/releases/download/v1.1.0/PCL-PE-1.1.0-preview.exe",
+        "https://ghfast.top/https://github.com/funuonuo1120/PCL-PE/releases/download/v1.1.0/PCL-PE-1.1.0-preview.exe",
+        "https://gh-proxy.com/https://github.com/funuonuo1120/PCL-PE/releases/download/v1.1.0/PCL-PE-1.1.0-preview.exe"
+      ]
+    },
+    "page": "https://github.com/funuonuo1120/PCL-PE/releases"
+  }
+}
