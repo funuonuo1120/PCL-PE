@@ -2,17 +2,17 @@
   "schema": 1,
   "latest": {
     "version": "1.1.0",
-    "channel": "preview",
-    "date": "2026-11-23",
-    "notes": "## PCL PE 1.1.0 · 换底版本\n\n- 以 **PCL Living Fork 1.5.1**（C# / .NET 10）为源码底座重制，PE 功能全部源码级接入\n- **陶瓦联机** 回归：顶栏联机页 + 内嵌内核，附推荐联机工具（uu云联机 / MCTier / 樱花内网 / Lolia FRP）\n- **主题色相** 全解锁：彩虹条拖到哪就是哪个颜色，导航栏与全局跟随\n- **版本设置** 新增「按键绑定设置」等 LF 原生功能：回收站、还原点、克隆版本、自定义主页\n- 更新页接入 **PCL PE 自更新**：启动时静默检查新版本，确认后下载、SHA256 校验并自动重启",
+    "channel": "stable",
+    "date": "2026-11-24",
+    "notes": "## PCL PE 1.1.0 正式版 · 换底重制\n\n相比 1.0.19 魔改版，这一版从底层完全重制。\n\n### 基座升级\n\n- 源码底座从旧版 PCL 换为 **PCL Living Fork 1.5.1**（C# / .NET 10），PE 功能全部源码级接入，不再是外挂式修改\n- 需要安装 .NET 10 桌面运行时（x64），缺失时启动器会引导下载\n\n### 界面与个性化\n\n- 全新界面框架：导航栏、设置页、卡片与弹窗布局全面翻新\n- **主题色相 0–360° 全解锁**：个性化 → 外观 的彩虹条拖到哪就是哪个色，导航栏渐变实时跟随，重启后保留\n- 浅色 / 深色主题完整支持，各配一张内置壁纸\n\n### 联机\n\n- 陶瓦（Terracotta）联机内核回归：顶栏「联机」页创建 / 加入房间，与 1.0.19 一致\n- 联机页重做：联机方式、联机步骤分区展示，新增推荐联机工具（uu云联机 / MCTier / 樱花内网 / Lolia FRP）一键直达\n- 设置 → 联机 提供联机内核维护\n\n### 功能增强\n\n- 「实例选择 / 实例设置」更名为「版本选择 / 版本设置」，版本设置左栏重做\n- 「按键管理」升级为「按键绑定设置」\n- 带回 LF 原生功能：回收站、还原点、克隆版本、自定义主页（含主页市场）、收藏页\n\n### 自动更新\n\n- 全新自更新系统：启动时静默检查，确认后自动下载（GitHub 直连 + 镜像多源轮试）、SHA256 校验、静默替换重启，失败自动回滚\n- 更新页新增「蓝奏云网盘」备用下载入口，GitHub 连不上时也可手动下载\n\n### 修复\n\n- 修复右上角关闭按钮无法退出启动器的问题\n- 及多项稳定性修复",
     "file": {
-      "name": "Plain Craft Launcher (PCL) PE 1.1.0 预览版.exe",
-      "size": 26665117,
-      "sha256": "b4329a2d1bd6f1925a1e76b2d1e4f6a2cbba0888ca374ba0b1a5dfc3266d062a",
+      "name": "Plain Craft Launcher (PCL) PE 1.1.0.exe",
+      "size": 26669213,
+      "sha256": "c9a19250d005817fe9ea13053a435ab4cbe2a123269407c2aeb69c52e4bc169b",
       "urls": [
-        "https://github.com/funuonuo1120/PCL-PE/releases/download/v1.1.0/PCL-PE-1.1.0-preview.exe",
-        "https://ghfast.top/https://github.com/funuonuo1120/PCL-PE/releases/download/v1.1.0/PCL-PE-1.1.0-preview.exe",
-        "https://gh-proxy.com/https://github.com/funuonuo1120/PCL-PE/releases/download/v1.1.0/PCL-PE-1.1.0-preview.exe"
+        "https://github.com/funuonuo1120/PCL-PE/releases/download/v1.1.0/PCL-PE-1.1.0.exe",
+        "https://ghfast.top/https://github.com/funuonuo1120/PCL-PE/releases/download/v1.1.0/PCL-PE-1.1.0.exe",
+        "https://gh-proxy.com/https://github.com/funuonuo1120/PCL-PE/releases/download/v1.1.0/PCL-PE-1.1.0.exe"
       ]
     },
     "page": "https://github.com/funuonuo1120/PCL-PE/releases"
